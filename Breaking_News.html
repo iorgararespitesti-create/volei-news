@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pamflet Sportiv</title>
+  <style>
+    :root {
+      --bg: #f5f5f5;
+      --card: #ffffff;
+      --text: #1b1b1b;
+      --muted: #6b7280;
+      --accent: #b30000;
+      --border: #e5e7eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .topbar {
+      background: #111;
+      color: white;
+      padding: 12px 24px;
+      font-size: 14px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .brand {
+      background: white;
+      border-bottom: 4px solid var(--accent);
+      padding: 18px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .brand h1 {
+      margin: 0;
+      font-size: 34px;
+      color: var(--accent);
+    }
+    .brand .tagline {
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .container {
+      max-width: 980px;
+      margin: 28px auto;
+      padding: 0 16px;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 24px;
+    }
+    .article, .sidebar {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+    }
+    .hero {
+      background: linear-gradient(135deg, #2b2b2b, #5f5f5f);
+      color: white;
+      padding: 28px;
+    }
+    .label {
+      display: inline-block;
+      background: #fff2f2;
+      color: var(--accent);
+      border: 1px solid #ffd1d1;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: 14px;
+    }
+    .hero h2 {
+      margin: 0 0 12px 0;
+      font-size: 38px;
+      line-height: 1.1;
+    }
+    .hero p {
+      margin: 0;
+      font-size: 18px;
+      color: #efefef;
+    }
+    .meta {
+      padding: 18px 28px 0 28px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .content {
+      padding: 12px 28px 28px 28px;
+      font-size: 18px;
+      line-height: 1.7;
+    }
+    .content p { margin: 0 0 18px 0; }
+    .content h3 {
+      margin: 28px 0 10px 0;
+      font-size: 22px;
+    }
+    .notice {
+      background: #fff7db;
+      border: 1px solid #f3df8e;
+      color: #5b4a00;
+      padding: 14px 16px;
+      border-radius: 12px;
+      margin: 24px 0;
+      font-size: 15px;
+    }
+    .sidebar {
+      padding: 22px;
+    }
+    .sidebar h4 {
+      margin: 0 0 16px 0;
+      font-size: 18px;
+    }
+    .mini {
+      padding: 14px 0;
+      border-top: 1px solid var(--border);
+    }
+    .mini:first-of-type { border-top: 0; padding-top: 0; }
+    .mini .kicker {
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .mini .title {
+      font-size: 16px;
+      line-height: 1.4;
+      font-weight: bold;
+    }
+    .footer {
+      max-width: 980px;
+      margin: 0 auto 30px auto;
+      padding: 0 16px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    @media (max-width: 860px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+      .hero h2 { font-size: 28px; }
+      .content { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">Ediție specială • sport • analiză</div>
+  <div class="brand">
+    <h1>SPORT ALERT</h1>
+    <div class="tagline">INCENDIAR</div>
+  </div>
+
+  <div class="container">
+    <article class="article">
+      <div class="hero">
+        <div class="label">BREAKING NEWS</div>
+        <h2>Cutremur imaginar în arbitrajul juvenil după duelul Rapid București – CSM București, U15 M, turneu semifinal CN</h2>
+        <p>Un meci tensionat, o atmosferă încinsă și suficiente cartonașe cât să iasă o poveste de vestiar.</p>
+      </div>
+
+      <div class="meta">Publicat: 23 martie 2026 • Redacția Doarvolei.ro</div>
+
+      <div class="content">
+        <div class="notice">
+          ȘOC! ȘOC! ȘOC!
+        </div>
+
+        <p>Meciul dintre Rapid București și CSM București, disputat în cadrul turneului semifinal U15 masculin și considerat decisiv pentru calificarea Rapidului în turneul final, a oferit publicului exact ceea ce nu știa că își dorește: tensiune, dramatism și o colecție de decizii care au alimentat comentariile de după joc mai mult decât fazele spectaculoase de pe teren.</p>
+
+        <p>Într-o seară în care tribuna a trecut prin toate stările posibile, fluierul a părut să aibă propria coloană sonoră. Fiecare avertisment și fiecare penalizare au fost întâmpinate cu expresii faciale demne de reluare cu încetinitorul, iar banca tehnică a trăit meciul cu intensitatea unei finale europene. Cu alte cuvinte, cadrul perfect pentru ca memoria colectivă să transforme un duel juvenil într-o legendă locală.</p>
+
+        <h3>Un meci aprins și multe interpretări</h3>
+        <p>În teren, jocul a fost disputat, însă în afara lui au apărut toate ingredientele unei narațiuni sportive savuroase: proteste, gesturi largi, priviri apăsate și sentimentul că fiecare fază are încărcătura unui punct de meci. Avertismentele și penalizările au devenit instant subiect de dezbatere printre cei prezenți, fiecare având propria versiune despre cine, când și de ce a depășit limita.</p>
+
+        <p>Ca în orice poveste de volei spusă a doua zi la cafea, adevărul tehnic a fost rapid depășit de spectacolul percepțiilor. Unii au văzut fermitate, alții au văzut exces de zel, iar cei mai creativi au văzut o demonstrație de teatru sportiv accidental. Cert este că meciul n-a lăsat pe nimeni indiferent.</p>
+
+        <h3>Verdictul redacției de pamflet</h3>
+        <p>Dacă ar exista un clasament imaginar al partidelor care au produs cele mai multe discuții pe minut, acest duel ar prinde fără emoții podiumul. Nu pentru că ar fi fost scandalos în sens real, ci pentru că a bifat perfect tot ce îți trebuie ca să rezulte o glumă bună între cunoscători: miză, nerv, decizii contestate și suficient material pentru tachinări elegante la următorul turneu.</p>
+
+        <p>Iar pentru cei care caută o concluzie serioasă într-un text complet neserios, ea este simplă: meciurile tensionate nasc întotdeauna povești. Unele rămân analiză tehnică. Altele devin folclor. Acesta, fără îndoială, intră în a doua categorie.</p>
+              <h3>Concluzie</h3>
+        <p>În logica acestui articol, „arbitrajul precar” devine mai degrabă o metaforă pentru cum poate fi perceput un meci tensionat din tribune: decizii care par inegale de la un punct la altul, ritm fragmentat și o doză de dramatism ce amplifică fiecare intervenție. Tradus în limbaj serios, astfel de partide cer consistență, comunicare clară și control emoțional — lucruri care, când sunt percepute ca oscilante, nasc inevitabil discuții aprinse. Din fericire, exact aceste dezbateri sunt și sarea și piperul voleiului juvenil. Brigada de arbitri a fost formată din: arbitrul principal COCOȘ Theodor, arbitru secund: STAN Andreea, arbitru scorer: SCUTARU Andrei. Astfel, concluzia meciului a fost reprezentată de ratarea calificării la turneul final a echipei CS Rapid București din cauza unui arbitraj slab ce a favorizat, în mod evident, echipa CSM-ului. Zvonurile spun că există, deja, o contestație făcută la nivelul comisiei de competiții FRV, cu probe video, urmând ca, cel mai probabil, în următoarele zile, în ședința internă a comisiei FRV cu pricina, să se adopte măsurile necesare.</p>
+      </div>
+    </article>
+
+    <aside class="sidebar">
+      <h4>Alte titluri absolut neoficiale</h4>
+      <div class="mini">
+        <div class="kicker">NOU</div>
+        <div class="title">Tribuna cere reluări, dar primește doar opinii ferme și gesturi teatrale</div>
+      </div>
+      <div class="mini">
+        <div class="kicker">ANALIZĂ</div>
+        <div class="title">Cum devine un set tensionat subiect de dezbatere pentru trei zile</div>
+      </div>
+      <div class="mini">
+        <div class="kicker">EXCLUSIV</div>
+        <div class="title">Specialiștii neoficiali ai sălii au dat deja verdictul</div>
+      </div>
+    </aside>
+  </div>
+
+</body>
+</html>
